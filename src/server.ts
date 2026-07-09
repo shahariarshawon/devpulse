@@ -1,6 +1,6 @@
-import app from "./app.js";
-import { env } from "./config/env.js";
-import { pool } from "./config/db.js";
+import app from "./app";
+import { env } from "./config/env";
+import { pool } from "./config/db";
 
 const startServer = async () => {
   try {
